@@ -1,0 +1,80 @@
+.dial {
+    height: 400px;
+    width: 400px;
+}
+
+.timer {
+    position: relative;
+    display: inline-block;
+}
+
+* {
+    font: inherit;
+}
+p {
+    color:rgb(15, 15, 190);
+    font-size: 40px;
+    background : transparent;
+}
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg')
+}
+.timer input {
+    /* min-width:75px;
+    min-height:30px; */
+    color: rgb(0, 0, 71);
+    text-align:center;
+    background: transparent;
+    width: 240px;
+    font-size: 70px;
+    border:none;
+}
+.timer .pic1 {
+    height: 3vw;
+    width: 4vw;
+    min-width:80px;
+    min-height: 60px;
+    display: inline-block;
+    margin-left: auto;
+}
+.timer .pic2 {
+    height: 2.8vw;
+    width: 3.5vw;
+    min-width:80px;
+    min-height: 60px;
+    display: inline-block;
+    margin-left: auto;
+}
+.timer image:focus {
+    outline: none;
+}
+.timer input:focus {
+    outline: none;
+  }
+.timer img {
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+  } 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

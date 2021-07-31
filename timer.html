@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="icon" href="https://icon-library.com/images/countdown-timer-icon/countdown-timer-icon-25.jpg">
+    <link rel="stylesheet" href ="timer.css">
+</head>
+<body>
+    <div class = "timer">
+        <div class = "controls">
+            <input id = "duration" >
+            <br>
+            <div id = "images">
+                <img class = 'pic1' id = "start"  border ="0" src = 'https://cdn.iconscout.com/icon/free/png-256/start-1438842-1214529.png'>
+                <!-- <img class = 'pic' id = 'reset' 
+                src = 'https://w1.pngwing.com/pngs/232/771/png-transparent-reset-icon-reset-button-icon-design-menu-bar-hamburger-button-computer-black-and-white-text.png'> -->
+                <img class = 'pic2' border ="0" id = 'lap' 
+                src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/OOjs_UI_icon_add.svg/1024px-OOjs_UI_icon_add.svg.png'>
+            </div>
+        </div>
+        <svg class="dial">
+            <circle
+            fill="transparent"
+            stroke= "rgb(0, 0, 71)"
+            stroke-width="15"
+            r="190"
+            cx="0"
+            cy="200"
+            transform="rotate(-90 100 100)"
+            />
+        </svg>
+    </div>
+    <HR align=center class = 'line' SIZE=1>
+    <div id = 'list'>
+    </div>
+    <script src = "timer.js"></script>
+    <script src = "timer_main.js"></script>
+</body>
+</html>
