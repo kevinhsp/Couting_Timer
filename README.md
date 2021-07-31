@@ -4,3 +4,4 @@ When you pause and start, the circle animation will not reset.
 When the time is running, you cannot edit the timer but you can lap the time.
 When you pause and reduce the time, you will the circle animation also changed, but if you increase the time and let it higher than the time you set at first, the timer will run more than one circle. 
 It's simple and intuitive. 
+Here is the sample link: https://hesupeng.com/timer.html
